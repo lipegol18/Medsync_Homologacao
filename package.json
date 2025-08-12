@@ -10,6 +10,10 @@
     "check": "tsc",
     "db:push": "drizzle-kit push"
   },
+  "workspaces": [
+    "client",
+    "server"
+  ],
   "dependencies": {
     "@emotion/styled": "^11.14.0",
     "@google-cloud/vision": "^5.1.0",
